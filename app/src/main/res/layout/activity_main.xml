@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bt_rect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="基于ImageView Rect的变换"/>
+
+    <Button
+        android:id="@+id/bt_drawable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="基于ImageView drawable的变换"/>
+
+    <Button
+        android:id="@+id/bt_list_to_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="图片列表到图片详情列表"/>
+
+</LinearLayout>
