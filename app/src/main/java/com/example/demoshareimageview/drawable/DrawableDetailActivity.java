@@ -55,7 +55,7 @@ public class DrawableDetailActivity extends AppCompatActivity {
         llRootView = (FrameLayout)findViewById(R.id.ll_rootView);
         mImageView = (ImageView)findViewById(R.id.iv_icon);
         //设置图片,也可以直接在xml布局中设置：android:src="@drawable/ic_one_piece"
-        mImageView.setImageResource(R.drawable.ic_picture4);
+        mImageView.setImageResource(R.drawable.ic_one_piece);
     }
 
     /**
@@ -76,7 +76,7 @@ public class DrawableDetailActivity extends AppCompatActivity {
                 //获取目标imageView在布局中的位置
                 mImageView.getGlobalVisibleRect(mTargetRect);
                 mTempImageView = new ImageView(DrawableDetailActivity.this);
-                mTempImageView.setImageResource(R.drawable.ic_picture4);
+                mTempImageView.setImageResource(R.drawable.ic_one_piece);
                 mTempImageView.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
                 //更改mTempImageView的位置，使其和上一个界面的图片的位置重合
                 FrameLayout.LayoutParams params = new FrameLayout.LayoutParams(mSourceWidth,mSourceHeight);
